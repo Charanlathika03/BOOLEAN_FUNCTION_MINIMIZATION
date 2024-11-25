@@ -32,19 +32,27 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+module exp2(f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor,a,b);
+input a,b;
+output f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor;
+and(f_and,a,b);
+or(f_or,a,b);
+not(f_not,a);
+nor(f_nor,a,b);
+nand(f_nand,a,b);
+xor(f_xor,a,b);
+xnor(f_xnor,a,b);
+endmodule
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+Developed by:charanlathika
+RegisterNumber:24010318
 
 
 **RTL realization**
-
-**Output:**
-
-**RTL**
+![Screenshot (2)](https://github.com/user-attachments/assets/7a6c52a1-4577-4ae3-a505-d39939266bae)
 
 **Timing Diagram**
+![Screenshot (3)](https://github.com/user-attachments/assets/cf1e7ff0-9f75-4ed8-b74f-15c007aa2e0d)
 
 **Result:**
 
